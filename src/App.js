@@ -46,7 +46,7 @@ function App() {
           <Borders_Page/>
         </Route>
 
-        <Route path="animations">
+        <Route path="/animations">
           <Animation_Page/>
         </Route>
 
@@ -68,7 +68,7 @@ function App() {
           <Forgot_page/>
         </Route>
 
-        <Route path="/404page">
+        <Route path="/**/**">
           <Error_Page/>
         </Route>
 

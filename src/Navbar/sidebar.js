@@ -49,7 +49,7 @@ export default function SideBar(){
                     <NavDropdown.Item onClick={()=>history.push("/login")}>Login</NavDropdown.Item>
                     <NavDropdown.Item onClick={()=>history.push("/register")}>Register</NavDropdown.Item>
                     <NavDropdown.Item onClick={()=>history.push("/forgot")}>Forget Password</NavDropdown.Item>
-                    <NavDropdown.Item onClick={()=>history.push("/404page")}>404 Page</NavDropdown.Item>
+                    <NavDropdown.Item onClick={()=>history.push("/**")}>404 Page</NavDropdown.Item>
                     <NavDropdown.Item onClick={()=>history.push("/blank")}>Blank Page</NavDropdown.Item>
                 </NavDropdown>
             </div>

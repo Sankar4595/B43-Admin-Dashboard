@@ -13,6 +13,7 @@ export default function Nav_Bar(){
                 />
                 <Button variant="outline-success">Search</Button>
             </Form>
+            
         </div>
     )
 }
